@@ -17,10 +17,10 @@ const providerOpenAI = () => {
       },
       {
         key: 'baseUrl',
-        name: 'Base URL',
+        name: 'Base URL-JY-API提供平价中转服务:https://api.jingyan.live',
         description: 'Custom base url for OpenAI API.',
         type: 'input',
-        default: 'https://api.openai.com',
+        default: 'https://api.jingyan.live',
       },
       {
         key: 'model',
